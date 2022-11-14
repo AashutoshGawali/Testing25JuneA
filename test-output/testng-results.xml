@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="7" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-30T14:44:42 IST" name="Suite" finished-at="2022-10-30T14:45:28 IST" duration-ms="45770">
+    <groups>
+      <group name="Sanity">
+        <method signature="GroupTest.verifyLoginByLogoTest()[pri:0, instance:TestCases.GroupTest@4e096385]" name="verifyLoginByLogoTest" class="TestCases.GroupTest"/>
+        <method signature="GroupTest.verifyLoginByUrlTest()[pri:0, instance:TestCases.GroupTest@4e096385]" name="verifyLoginByUrlTest" class="TestCases.GroupTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="GroupTest.verifyLoginByLogoTest()[pri:0, instance:TestCases.GroupTest@4e096385]" name="verifyLoginByLogoTest" class="TestCases.GroupTest"/>
+        <method signature="GroupTest.verifyLoginByUrlTest()[pri:0, instance:TestCases.GroupTest@4e096385]" name="verifyLoginByUrlTest" class="TestCases.GroupTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="GroupTest.verifyLoginByLogoTest()[pri:0, instance:TestCases.GroupTest@4e096385]" name="verifyLoginByLogoTest" class="TestCases.GroupTest"/>
+        <method signature="GroupTest.verifyLoginByUrlTest()[pri:0, instance:TestCases.GroupTest@4e096385]" name="verifyLoginByUrlTest" class="TestCases.GroupTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-10-30T14:44:42 IST" name="Test" finished-at="2022-10-30T14:45:28 IST" duration-ms="45770">
+      <class name="TestCases.GroupTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.GroupTest@4e096385]" started-at="2022-10-30T14:44:42 IST" name="setup" finished-at="2022-10-30T14:45:22 IST" duration-ms="40310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginByLogoTest()[pri:0, instance:TestCases.GroupTest@4e096385]" started-at="2022-10-30T14:45:22 IST" name="verifyLoginByLogoTest" finished-at="2022-10-30T14:45:23 IST" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginByLogoTest -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:TestCases.GroupTest@4e096385]" started-at="2022-10-30T14:45:23 IST" name="close" finished-at="2022-10-30T14:45:23 IST" duration-ms="125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginByLogoTest status=SUCCESS method=GroupTest.verifyLoginByLogoTest()[pri:0, instance:TestCases.GroupTest@4e096385] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:TestCases.GroupTest@4e096385]" started-at="2022-10-30T14:45:23 IST" name="setup" finished-at="2022-10-30T14:45:26 IST" duration-ms="2864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginByUrlTest()[pri:0, instance:TestCases.GroupTest@4e096385]" started-at="2022-10-30T14:45:26 IST" name="verifyLoginByUrlTest" finished-at="2022-10-30T14:45:28 IST" duration-ms="1639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginByUrlTest -->
+        <test-method is-config="true" signature="close(org.testng.ITestResult)[pri:0, instance:TestCases.GroupTest@4e096385]" started-at="2022-10-30T14:45:28 IST" name="close" finished-at="2022-10-30T14:45:28 IST" duration-ms="107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLoginByUrlTest status=SUCCESS method=GroupTest.verifyLoginByUrlTest()[pri:0, instance:TestCases.GroupTest@4e096385] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCases.GroupTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
