@@ -20,5 +20,6 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get(ReadData.readPropertyFile("Url"));
 	}
-	
+	//changes done on code
+	//want to push	
 }
